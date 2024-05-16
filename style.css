@@ -5,17 +5,17 @@ body {
 
 #copy-container {
   margin: 0 auto;
-  border: 1px solid #ddd;
   max-width: 1000px;
 }
 
 section {
   background-color: white;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero {
   background-color: white;
-  height: 100vh;
   color: #1c1d25;
   font-size: 40px;
 }
@@ -72,19 +72,27 @@ p {
   padding: 15px;
   margin: 15px;
   line-height: 1.5;
-
+  margin-left: 0;
 }
 .glossary {
   color: #b8860b;
 }
 
-.hero-text {
-  margin-left: 80px;
-  margin-bottom: 200px;
+.hero-area {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#connect {
+  width: 100%;
   text-align: center;
 }
-.about-me-container {
-  width: 200px;
+
+.hero-text {
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .button {
@@ -153,7 +161,11 @@ p {
   width: 700px;
   height: 250px;
   box-shadow: 3px 3px 15px rgb(197, 195, 195);
-  margin: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.project-card h3 {
+  text-align: center;
 }
 .project-container {
   display: flex;
@@ -211,6 +223,7 @@ p {
   text-decoration: none;
   color: #b8860b;
   font-weight: bold;
+  padding-left: 10px;
 }
 
 a {

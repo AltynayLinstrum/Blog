@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="pages.css" />
     <link rel="stylesheet" href="glossary.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;800&family=Poltawski+Nowy&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;800&amp;family=Poltawski+Nowy&amp;display=swap"
       rel="stylesheet"
     />
     <script
@@ -15,154 +16,191 @@
       crossorigin="anonymous"
     ></script>
     <title>Altynay Linstrum</title>
-    <meta charset="UTF-8" />
   </head>
-
   <body>
-    <section class="hero">
-      <nav>
+    <div>
+    <nav>
         <div class="logo"></div>
         <ul id="nav-list">
-          <li><a href="#about-me" class="menu-item">About</a></li>
-          <li><a href="#projects"class="menu-item">Blog</a></li>
-          <li><a href="glossary.html" class="menu-item" target="_blank">AIML Glossary</a></li>
+          <li>
+            <a href="#about-me" class="menu-item">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="menu-item">Projects</a>
+          </li>
+          <li>
+            <a href="glossary.html" class="menu-item" target="_blank"
+              >AIML Glossary</a
+            >
+          </li>
         </ul>
-        <button class="hamburger" id="hamburger">
-          <i class="fas fa-bars"></i>
-        </button>
+        <button class="hamburger" id="hamburger"></button>
       </nav>
+    </div>
+    <section class="hero">
       <div class="hero-area">
         <div class="hero-text" id="about-me">
           <h3>Altynay Linstrum</h3>
           <div class="headshot-container">
             <img class="headshot" src="images/IMG_0869.JPG" alt="headshot" />
           </div>
-          <div class="about-me-container">
-            <p>Technical Program Manager, PMP, SCM</p>
-            <p class="subtext">Hello and welcome! I am a passionate project and program manager who loves working on complex and meaningful initiatives. I enjoy making connections and learning from different teams and love to experiment with new technologies and ideas!</p>
-            <p class="subtext">This website showcases my technical skills. I am not a coder, but I love to understand the complexity behind algorithms and programming languages.</p>
-            <a href="https://www.linkedin.com/in/alinstrum/" class="social">
-              <i class="fa-brands fa-linkedin-in"></i>
-            <a href="https://github.com/AltynayLinstrum" class="social">
-              <i class="fa-brands fa-github"></i>
-            <a href="https://drive.google.com/file/d/1N1FHxFGkPU_r6KSVsX5Ls6iG-gQM75bs/view?usp=sharing" class="social">
-              <i class="fa-regular fa-file"></i>
-              </a>
-          </div>
         </div>
+        <div>
+          <!-- <p>Technical Program Manager, PMP, SCM</p> -->
+          <p class="subtext">
+            Hello and welcome! I am a passionate project and program manager who
+            loves working on complex and meaningful initiatives. I enjoy making
+            connections and learning from different teams and love to experiment
+            with new technologies and ideas!
+          </p>
+          <p class="subtext">
+            This website showcases my technical skills. I am not a coder, but I
+            love to understand the complexity behind algorithms and programming
+            languages.
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/alinstrum/" class="social"></a>
+            <a href="https://github.com/AltynayLinstrum" class="social"></a>
+            <a
+              href="https://drive.google.com/file/d/1N1FHxFGkPU_r6KSVsX5Ls6iG-gQM75bs/view?usp=sharing"
+              class="social"
+            ></a>
+          </p>
+        </div>
+        <section id="connect">
+          <a
+            href="https://www.linkedin.com/in/alinstrum/"
+            class="social social-footer fa-brands fa-linkedin-in"
+          ></a>
+          <a
+            href="https://github.com/AltynayLinstrum"
+            class="social social-footer fa-brands fa-github"
+          ></a>
+          <a
+            href="https://drive.google.com/file/d/1N1FHxFGkPU_r6KSVsX5Ls6iG-gQM75bs/view?usp=sharing"
+            class="social social-footer fa-regular fa-file"
+          ></a>
+        </section>
       </div>
       <hr />
     </section>
+    <section style="width: 700px">
+      <div style="text-align: center">
+        <h2>Projects</h2>
+      </div>
+    </section>
 
-    <!-- Projects -->
-    <section class="sub-section-alternative" id="projects">
-      <hr></hr>
-      <h2>Blog</h2>
-      <!-- Project 1 -->
+    <section id="projects">
       <div class="project-container">
         <div class="project-card">
           <a href="p1.html" target="_blank">
-          <h3>Project: YouTube Transript Summarizer</h3>
-          <p class="subtext">
-            This app takes in a video link and summarizes its transcript.
-            <i class="fa-brands fa-youtube"></i>
-          </p>
+            <h3>Project: YouTube Transript Summarizer</h3>
+            <p class="subtext">
+              This app takes in a video link and summarizes its transcript.
+            </p></a
+          >
           <hr />
           <p class="subtext glossary">
-            <a href="https://deepmind.google/technologies/gemini/pro/" target="_blank" class="glossary-term">Gemini</a> 
-            <a href="https://www.ibm.com/topics/large-language-models" target="_blank" class="glossary-term">Large Language Model (LLM)</a> 
-            <a href="glossary.html" class="glossary-term"> Linear Regression</a></p>
-          </a>
+            <a
+              href="https://deepmind.google/technologies/gemini/pro/"
+              target="_blank"
+              class="glossary-term"
+              >Gemini</a
+            >
+            <a
+              href="https://www.ibm.com/topics/large-language-models"
+              target="_blank"
+              class="glossary-term"
+              >Large Language Model (LLM)</a
+            >
+            <a href="glossary.html" class="glossary-term">Linear Regression</a>
+          </p>
         </div>
       </div>
-
-      <!-- Project 2 -->
       <div class="project-container">
         <div class="project-card">
           <a href="p2.html" target="_blank">
-          <h3>Project: LangServe LLM App</h3>
-          <p class="subtext">
-            This app takes in a prompt and generates a poem and an essay.
-            <i class="fa-solid fa-blog"></i>
-          </p>
-          <hr />
-          <p class="subtext glossary">
-            <a href="glossary.html" class="glossary-term" target="_blank">Sentiment Analysis</a> 
-            <a href="Neural Network" class="glossary-term">Neural Network</a> 
-            <a href="Transformer" class="glossary-term">Transformer</a></p>
-          </a>
-        </div>
-      </div>
-
-
-      <!-- Project 3 -->
-      <div class="project-container">
-        <div class="project-card">              
-          <h3>Project: Article Summarizer and Sentiment Detector</h3>
-          <p class="subtext">
-            Python application that summarizes the content and sentiment of news articles entered by the user.
-            <i class="fa-regular fa-newspaper"></i>
-          </p>
-          <hr></hr>
-          <a
-          class="project-link"
-          href="https://github.com/AltynayLinstrum/ArticleSummarizer" target="_blank"
-          >Further details</a>
-        </div>
-      </div>  
-      <!-- Project 4 -->
-        <div class="project-container">
-          <div class="project-card">              
-            <h3>Project: The Saloon Website</h3>
+            <h3>Project: LangServe LLM App</h3>
             <p class="subtext">
-              A revamped version of the website of one of the oldest blues bars on the West Coast!
-              <i class="fa-solid fa-guitar"></i>
-            </p>
-            <hr></hr>
-            <a
-              class="project-link"
-              href="https://altynaylinstrum.github.io/saloon/" target="_blank"
-              >Visit the website!</a
-            ><br>
-            <a
-              class="project-link"
-              href="https://github.com/AltynayLinstrum/saloon" target="_blank"
-              >Further details</a>
-            </a>
-          </div>
-        </div>
-
-        <!-- Project 5 -->
-        <div class="project-container">
-          <div class="project-card">
-            <h3>Mini Python Projects</h3>
-            <p class="subtext">
-              Mini Python automation projects comprising of just a few lines of code to help reduce manual work <i class="fa-solid fa-screwdriver-wrench"></i>
+              This app takes in a prompt and generates a poem and an essay.
             </p>
             <hr />
-            <p class="subtext mini-project">
-              <a
-                class="project-link"
-                href="https://github.com/AltynayLinstrum/ImageEditing"
-                >1. Image Editor</a
-              ><br />
-              <a
-                class="project-link"
-                href="https://github.com/AltynayLinstrum/FileMerge"
-                >2. PDF File Merger</a
-              ><br />
-              <a
-                class="project-link"
-                href="https://github.com/AltynayLinstrum/YTVideoDownloader"
-                >3. YT Video Downloader</a>
-            </p>
-          </div>
+            <p class="subtext glossary"></p></a
+          ><a href="glossary.html" class="glossary-term" target="_blank"
+            >Sentiment Analysis</a
+          >
+          <a href="Neural%20Network" class="glossary-term">Neural Network</a>
+          <a href="Transformer" class="glossary-term">Transformer</a>
         </div>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <h3>Project: Article Summarizer and Sentiment Detector</h3>
+          <p class="subtext">
+            Python application that summarizes the content and sentiment of news
+            articles entered by the user.
+          </p>
+          <hr />
+          <a
+            class="project-link"
+            href="https://github.com/AltynayLinstrum/ArticleSummarizer"
+            target="_blank"
+            >Further details</a
+          >
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <h3>Project: The Saloon Website</h3>
+          <p class="subtext">
+            A revamped version of the website of one of the oldest blues bars on
+            the West Coast!
+          </p>
+          <hr />
+          <a
+            class="project-link"
+            href="https://altynaylinstrum.github.io/saloon/"
+            target="_blank"
+            >Visit the website!</a
+          ><br />
+          <a
+            class="project-link"
+            href="https://github.com/AltynayLinstrum/saloon"
+            target="_blank"
+            >Further details</a
+          >
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <h3>Mini Python Projects</h3>
+          <p class="subtext">
+            Mini Python automation projects comprising of just a few lines of
+            code to help reduce manual work
+          </p>
+          <hr />
+          <p class="subtext mini-project">
+            <a
+              class="project-link"
+              href="https://github.com/AltynayLinstrum/ImageEditing"
+              >1. Image Editor</a
+            ><br />
+            <a
+              class="project-link"
+              href="https://github.com/AltynayLinstrum/FileMerge"
+              >2. PDF File Merger</a
+            ><br />
+            <a
+              class="project-link"
+              href="https://github.com/AltynayLinstrum/YTVideoDownloader"
+              >3. YT Video Downloader</a
+            >
+          </p>
+        </div>
+      </div>
     </section>
-
-
-    <!-- Connect -->
-    <footer id="connect">
+    <section>
+      <footer id="connect">
       <a href="https://www.linkedin.com/in/alinstrum/" class="social social-footer">
         <i class="fa-brands fa-linkedin-in"></i>
       <a href="https://github.com/AltynayLinstrum" class="social social-footer">
@@ -170,7 +208,7 @@
       <a href="https://drive.google.com/file/d/1N1FHxFGkPU_r6KSVsX5Ls6iG-gQM75bs/view?usp=sharing" class="social social-footer">
         <i class="fa-regular fa-file"></i>
     </footer>
-
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
