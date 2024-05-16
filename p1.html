@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="pages.css" />
+    <link rel="stylesheet" href="glossary.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;800&family=Poltawski+Nowy&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ae30965246.js"
+      crossorigin="anonymous"
+    ></script>
+    <title> YouTube Transcript Summarizer</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="copy-container">
+      <nav>
+      <div class="logo"></div>
+      <ul id="nav-list">
+        <li><a href="index.html" class="menu-item" target="_blank">About</a></li>
+        <li><a href="index.html"class="menu-item" target="_blank">Blog</a></li>
+        <li><a href="glossary.html" class="menu-item" target="_blank">AIML Glossary</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Projects -->
+    <section class="sub-section-alternative" id="projects">
+      <hr />
+      <h2 class="project-title">YouTube Transript Summarizer</h2>
+       <div class="glossary-container">
+        <p class="subtext glossary">
+          <a href="glossary.html" class="glossary-term page-glossary-term">Gemini</a> 
+          <a href="glossary.html" class="glossary-term page-glossary-term">LLM</a> 
+          <a href="glossary.html" class="glossary-term page-glossary-term"> Linear Regression</a></p>
+       </div>
+      <div class="project-summary">
+        <h4>Project Summary</h4>
+        <p class="subtext project-text">This app takes in a video link and summarizes its transcript.
+        </p><br>
+        <h4>APIs and Libraries</h4>
+        <p class="subtext project-text">
+          YouTube Transcript API, Streamlit (for UI), and the Gemini language model were used in creating this program.
+          Additionally, the app consists of two methods: one is for extracting the transcript using the YouTube API, and the other one for summarizing the transcript (design diagram below).
+        </p>
+      </div>
+      <div class="diagram-container">
+        <img class="project-diagram" src="images/Project-1.png" alt="project1" />
+      </div>
+
+      <div class="project-summary">
+        <h4>Future Improvements
+        </h4>
+        <p class="subtext project-text">
+        One valuable improvement could be incorporating a translation capability. Majority of YouTube videos are produced in English. To enable global audiences with access to a variety of video materials outside their regional reach, a translation capability might enhance the value of the app.  
+        </p>
+      </div>
+
+        <div class="project-summary">
+          <h4>Key Takeaways 
+          </h4>
+          <p class="subtext project-text">My key takeaway from this project was how easy it was to use the Youtube Script API and Gemini Pro model. With the help of just a couple methods, I was able to generate well-structured and insightful script summaries. 
+            What was interesting is the variance in the model's output for the same input. As an example, below is the output for this <a href="https://www.youtube.com/watch?v=PXMJ6FS7llk" style="color: blue;" target="_blank">linked video</a>. Not only did the word count vary, but there was a significant difference in the style and layout of the output.  
+          </p>
+          <div class="screenshot-container">
+            <div class="left-screenshot">
+              <h4>Summary Example 1</h4>
+              <img class="project-screenshot" src="images/summary1.png" alt="project1" />
+            </div>
+            <div class="right-screenshot">
+              <h4>Summary Example 2</h4>
+              <img class="project-screenshot" src="images/summary2.png" alt="project1" />
+            </div>
+          </div>
+        </div>
+
+        <div class="project-summary">
+          <h4>References
+          </h4>
+          <p class="subtext project-text">
+            - <a href="">
+          </p>
+        </div>
+    </section>
+    </div>
+    <!-- Connect -->
+    <footer id="connect">
+      <a href="https://www.linkedin.com/in/alinstrum/" class="social social-footer">
+        <i class="fa-brands fa-linkedin-in"></i>
+      <a href="https://github.com/AltynayLinstrum" class="social social-footer">
+        <i class="fa-brands fa-github"></i>
+      <a href="https://drive.google.com/file/d/1N1FHxFGkPU_r6KSVsX5Ls6iG-gQM75bs/view?usp=sharing" class="social social-footer">
+        <i class="fa-regular fa-file"></i>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

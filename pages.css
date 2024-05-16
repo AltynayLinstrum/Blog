@@ -1,0 +1,70 @@
+/* Pages */
+.project-contents {
+    display: flex;
+    justify-content: space-around;
+  }
+  .project-title{
+    padding: 10px;
+    margin: 5px;
+  }
+  .project-contents li {
+    padding: 10px;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  .project-summary{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .project-summary h4 {
+    padding: 0;
+    margin: 0;
+    color: #242424;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .project-summary p {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+  }
+  .project-text {
+    text-align: left;
+  }
+
+.project-diagram {
+  max-width: 700px;
+  margin: 20PX;
+  margin: 0 auto;
+}
+.diagram-container{
+  padding: 20px;
+  margin: 10px;
+}
+.screenshot-container {
+  display: flex;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.left-screenshot {
+  border: 1px solid #F2F2F2;
+  width: 50%;
+  padding-top: 10px;
+
+}
+.right-screenshot {
+  border: 1px solid #F2F2F2;
+  width: 50%;
+  padding-top: 10px;
+
+
+}
+.project-screenshot{
+  max-width: 480px;
+}

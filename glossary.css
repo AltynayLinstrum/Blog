@@ -1,0 +1,18 @@
+.glossary-term{
+    border-radius: 200px;
+    border: 1px solid #F2F2F2;
+    padding: 5px;
+    background-color: #F2F2F2;
+}
+.glossary-term:hover{
+    color: black;
+}
+.glossary-header h4{
+    color: #b8860b;
+}
+.page-glossary-term{
+    color: #b8860b;
+    font-weight: bold;
+
+
+}
